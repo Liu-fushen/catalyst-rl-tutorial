@@ -277,7 +277,16 @@ This tutorial is based on the research done at [ARRIVAL](https://arrival.com/?gc
 
 The team is creating flexible factories of the future for the assembly of Arrival electric vehicles. One of the topics we are actively working on is transferring the knowledge obtained in the simulation to the physical robot. We encourage you to check out our recent research publication: [Sim2Real for Peg-Hole Insertion with Eye-in-Hand Camera](https://arxiv.org/pdf/2005.14401.pdf). If you have any questions about the contents of that tutorial or simply want to chat about robots, feel free to reach out to us!
 
-
+```bash
+conda create -n rl python=3.7
+conda activate rl
+cd ~/PyRep
+pip install .
+cd ~/catalyst-rl-tutorial/
+pip install -r requirements.txt
+conda install -c conda-forge libffi gobject-introspection
+pip install wandb
+```
 
 
 
